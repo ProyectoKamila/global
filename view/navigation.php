@@ -15,7 +15,7 @@
                     <li id="menu-item-174" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-174"><a title="Home" href="#home">Inicio</a></li>
                     <li id="menu-item-175" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-175"><a title="Introduce" href="#intro">Destacado</a></li>
                     <!--<li id="menu-item-176" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-176"><a title="Features" href="#features">Aliados</a></li>-->
-                    <li id="menu-item-177" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-177"><a title="Testimoni" href="#testimoni">Directivos</a></li>
+                    <li id="menu-item-177" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-177"><a title="Testimoni" href="#testimoni">Talentos</a></li>
                     <li id="menu-item-178" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-178"><a title="Products" href="#Products">Programación</a></li>
                     
                     <li id="menu-item-182" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-182"><a title="Contact" href="#contact">Contacto</a></li>

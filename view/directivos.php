@@ -3,7 +3,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="divider clearfix"></div>
-					<h4 class="heading wow flipInX" data-wow-delay="0.2s"><span>Directivos</span></h4>
+					<h4 class="heading wow flipInX" data-wow-delay="0.2s"><span>Talentos</span></h4>
 				</div>
 			</div>
 			<div class="row">

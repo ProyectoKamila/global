@@ -6,8 +6,12 @@ show_admin_bar( false );
 
 function theme_custom_types() {
     add_custom_post_type(array(
+        'type' => 'Aliados',
+        'plural' => 'aliados'
+    ));
+    add_custom_post_type(array(
         'type' => 'directivos',
-        'plural' => 'directivos'
+        'plural' => 'Talentos'
     ));
     add_custom_post_type(array(
         'type' => 'programacion',
@@ -39,8 +43,9 @@ if(function_exists('acf_add_options_page')){
 		acf_add_options_page($page);
     acf_add_options_sub_page('Portada');
     acf_add_options_sub_page('Destacado');
+    //acf_add_options_sub_page('Emisoras Aliadas');
     acf_add_options_sub_page('Aliados');
-    acf_add_options_sub_page('Directivos');
+    acf_add_options_sub_page('Talentos');
     acf_add_options_sub_page('Programacion');
     acf_add_options_sub_page('Contacto');
 }

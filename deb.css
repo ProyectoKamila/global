@@ -106,3 +106,90 @@ a.active.openpanel{
     margin-left: 40px;
     color: black;
 }
+
+.playing {
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    /*background-color: red;*/
+    background-color:rgba(000,000,000,0.7);
+    width: 100%;
+    z-index: 1000;
+    
+}
+.anythingSlider-default .anythingWindow{
+    border:none !important;
+}
+div#wrapper1{
+    height:100%;
+    overflow:hidden;
+}
+.anythingSlider-default{
+    padding:0px 45px !important;
+}
+li.panel.activePage img {
+    /*max-width: 100% !important;
+    height: auto !important;
+    width: initial !important;
+    height: initial !important;*/
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+.anythingSlider.anythingSlider-default.activeSlider{
+    overflow:hidden !important;
+    height: 80px !important;
+}
+li.cloned.panel, li.panel.activePage,li.panel{
+    height: 80px !important;
+}
+.table table{
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+}
+.anythingSlider-default .arrow a{
+    margin: -72px 0 0 0 !important;
+}
+li.panel .container{
+        padding-top: 16px;
+}
+.white{
+    color:white;
+}
+.boplay{
+    position: fixed;
+    bottom: 80px;
+    right: 10%;
+    background-color: rgba(000,000,000,0.7);
+    width: 20px;background-color
+    text-align:center;
+    z-index: 1;
+}
+.boplay a{
+    color:white!important;
+    text-decoration:none;
+}.boplay a:hover{
+    color:#2a6496!important;
+}
+.m{
+    bottom:-80px;
+}
+.m1{
+    bottom:0px;
+}
+.menu, .tgg{
+    transition:1s;
+}
+.flecha1{
+    transform: rotate(180deg);
+        transition: 1s all ease-in-out;
+}
+#tgg{
+    font-family: 'Open Sans',sans-serif;
+}
+.playing1 > p{
+    /*display:none;*/
+    height:0px !important;
+    overflow:hidden;
+}

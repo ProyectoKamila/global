@@ -206,5 +206,53 @@ foreach($img as $img1){
                 
 	        }
 </script>
+<?php //debug($cont); ?>
+<script>
+    $(function () {
+        jQuery(document).ready(function($){
+        	console.log();
+            $(".tgg1").click(function(){
+            	
+                //$(".demo-panel").toggle("slow");
+                //$('#main').toggleClass("col-lg-offset-3");
+                $('.tgg1').toggleClass("m1");
+                $('.darkbg1').toggleClass("m");
+                //$('#tgg span').toggleClass("flecha1");
+                return false
+            });
+            
+        });
+    });
+ 
+    </script>
+    
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/AnythingSlider/css/anythingslider.css">
+	<script src="<?php bloginfo('template_url'); ?>/js/AnythingSlider/js/jquery.anythingslider.js"></script>
+	
+<script>
+	$(function () {
+		$('#slider1').anythingSlider({
+//			theme : 'metallic',
+			expand       : true,
+			autoPlay     : false,
+			buildStartStop: false,
+			hashTags: false,
+			buildArrows: true,
+			buildNavigation: false,
+			resizeContents : false,
+		});
+	});
+	jQuery(document).ready(function($){
+            $("#tgg").click(function(){
+                //$(".demo-panel").toggle("slow");
+                //$('#main').toggleClass("col-lg-offset-3");
+                $('.tgg').toggleClass("m1");
+                $('.menu').toggleClass("m");
+                $('#tgg').toggleClass("flecha1");
+                return false
+            });
+            
+        });
+    </script>
   </body>
 </html>
